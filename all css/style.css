@@ -11,6 +11,7 @@
     margin: 0;
 
 }
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -20,6 +21,17 @@ body {
     margin: 0 auto;
 }
 
+.explore-more-btn {
+    background: #FF900E;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 
 /**************
@@ -71,12 +83,14 @@ body {
     text-align: center;
     padding-top: 120px;
 }
+
 .banner-content .banner-heading {
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
     color: #131313;
 }
+
 .banner-description {
     font-weight: 400;
     font-size: 16px;
@@ -85,17 +99,236 @@ body {
     margin: 32px 0;
 
 }
-.banner-btn {
-    background: #FF900E;
-    padding: 20px 25px;
-    border: 0;
-    border-radius: 8px;
-    font-weight: 600;
-    line-height: 23px;
-    color: #FFFFFF;
-    font-size: 20px;
-    cursor: pointer;
-}
+
 .banner-img {
     padding-top: 50px;
+}
+
+/******************
+         main section  
+         ******************/
+.main-section {
+    background-color: #FFF;
+
+}
+
+.feature-section {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.feature-all-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+
+}
+
+.feature-img {
+    width: 100%;
+
+}
+
+.feature-content {
+    width: 537px;
+}
+
+.feature-heading {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.feature-heading .mark-1 {
+    color: #131313;
+}
+
+.feature-heading .mark-2 {
+    color: #FF900E;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 20px 0;
+}
+
+/* Experiance section (2.2) */
+.experiance-section {
+    display: flex;
+    gap: 55px;
+}
+
+.ex-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding: 0 190px 0 10px;
+    border-left: 5px solid #FF900E;
+    margin: 25px 0;
+}
+
+.ex-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+.ex-single-content {
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.ex-single-content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+
+.ex-single-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.ex-button {
+    background: #FF900E;
+    padding: 25px 40px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top: -90px;
+    left: -40px;
+}
+
+.ex-button .small {
+    font-weight: 500;
+    font-size: 25px;
+    display: block;
+}
+
+/* Achivement section css (2.3) */
+.achivement-section {
+    padding: 50px 0;
+}
+
+.achivement-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.achivement-description {
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px 0 100px 0;
+}
+
+.achivement-boxes {
+    display: flex;
+    gap: 124px;
+    justify-content: center;
+}
+
+.single-box {
+    padding: 45px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.single-box img {
+    width: 45px;
+    height: 45px;
+}
+
+.single-box h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.single-box p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* sponsor section css ( 2.4 ) */
+.sponsor-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sponsor-content {
+    width: 542px;
+    margin: 0 auto;
+}
+
+.sponsor-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-top: 25px;
+}
+.sponsor-img {
+    display: flex;
+    gap: 155px;
+    margin-top: 50px;
+
+}
+
+.sponsor-img .single-img img {
+    width: 100%;
+}
+
+/******************
+    Footer part CSS
+    ***********************/
+.copy-right {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 40px 400px;
+}
+.copy-right p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
 }
