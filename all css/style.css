@@ -71,6 +71,7 @@ body {
 
 .menu ul li {
     list-style: none;
+    
 }
 
 .menu ul li a {
@@ -81,6 +82,12 @@ body {
     text-align: center;
     color: #424242;
     margin-left: 50px;
+    padding-bottom: 8px;
+    transition: .6s;
+    border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover {
+    border-bottom: 2px solid #FF900E;
 }
 
 /* banner content section */
