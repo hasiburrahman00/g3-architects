@@ -1,0 +1,100 @@
+@media only screen and (max-width: 576px) {
+
+    /****************
+        header section responsive 
+            *********************/
+
+
+    .header-section {
+        padding: 25px 0;
+    }
+    .menu-section {
+        align-items: flex-start;
+    }
+    .menu ul {
+        flex-direction: column;
+    
+    }
+    .menu-section .logo {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .banner-content {
+        width: 92%;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    .banner-content .banner-heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    /****************
+        main section responsive
+            ********************/
+    
+    .feature-section {
+        flex-direction: column-reverse;
+    }
+    .feature-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .feature-all-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .experiance-section {
+        flex-direction: column;
+    }
+    .ex-heading {
+        padding: 0 20px 0 10px;
+
+    }
+    .ex-description {
+        padding-right: 20px;
+    }
+    .ex-img-section img {
+        width: 100%;
+    }
+    .ex-button {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .achivement-description {
+        width: 100%;
+    }
+    .achivement-boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .single-box {
+        text-align: center;
+    }
+    .sponsor-section{
+        padding: 0;
+    }
+    .sponsor-content {
+        width: 100%;
+    }
+    .sponsor-img {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 30px;
+    }
+    .sponsor-img .single-img img {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .copy-right {
+        padding: 20px 20px;
+        margin-top: 30px;
+    }
+    .copy-right p {
+        font-size: 18px;
+    }
+}
