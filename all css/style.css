@@ -325,11 +325,17 @@ body {
     display: flex;
     gap: 155px;
     margin-top: 50px;
+    
 
+}
+.sponsor-img img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .sponsor-img .single-img img {
     width: 100%;
+    transition: .7s;
 }
 
 /******************
